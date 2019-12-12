@@ -1,0 +1,1 @@
+ls | echo ${PATH//:/$'\\n'} | cat -n
